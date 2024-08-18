@@ -8,7 +8,7 @@ img_file_buffer = st.camera_input("Take a picture")
 
 if img_file_buffer is not None:
     img = Image.open(img_file_buffer)
-    img = np.array(img)
-    st.image(img)
+    imga = np.array(img)
+    st.image(imga)
 
 st.write("supposedly this does something")
